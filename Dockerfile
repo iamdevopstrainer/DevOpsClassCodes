@@ -1,3 +1,3 @@
-FROM iamdevopstrainer/addressbook:6
+FROM iamdevopstrainer/tomcat:base
 COPY addressbook.war /usr/local/tomcat/webapps/
 CMD ["catalina.sh", "run"]
